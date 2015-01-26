@@ -1,0 +1,29 @@
+@import url(http://fonts.googleapis.com/css?family=Pontano+Sans|Stint+Ultra+Expanded);
+
+$black : black;
+$white : white;
+$orange : #F25802;
+
+
+$body-font:'Pontano Sans', sans-serif;
+$header-font:'Stint Ultra Expanded', serif;
+
+body {
+  font-family:$body-font;
+}
+h1, h2, h3, h4 {
+  font-family:$header-font;
+}
+h5, h6 {
+  font-family:$body-font;
+}
+a {
+  color:$black;
+  transition:color .3s ease;
+  &:visited {
+    color: lighten($orange, 30%);
+  }
+  &:hover {
+    color: $orange;
+  }
+}

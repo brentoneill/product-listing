@@ -1,0 +1,20 @@
+{
+  "name": "product-listing",
+  "version": "0.0.0",
+  "authors": [
+    "Brent O'Neill <brentoneill@gmail.com>"
+  ],
+  "description": "Assignment for the Iron Yard to play w/ underscore templating",
+  "main": "index.html",
+  "keywords": [
+    "underscore"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

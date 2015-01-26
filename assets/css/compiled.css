@@ -1,0 +1,118 @@
+@import url(http://fonts.googleapis.com/css?family=Pontano+Sans|Stint+Ultra+Expanded);
+body, ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0px; }
+
+a {
+  text-decoration: none; }
+  a:visited {
+    color: black; }
+
+body {
+  font-family: "Pontano Sans", sans-serif; }
+
+h1, h2, h3, h4 {
+  font-family: "Stint Ultra Expanded", serif; }
+
+h5, h6 {
+  font-family: "Pontano Sans", sans-serif; }
+
+a {
+  color: black;
+  transition: color .3s ease; }
+  a:visited {
+    color: #feb78f; }
+  a:hover {
+    color: #F25802; }
+
+.container {
+  width: 80%;
+  margin: 0 auto; }
+
+header {
+  text-align: center; }
+  header .logo {
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 100%;
+    padding: 4px;
+    height: 140px;
+    width: 140px;
+    border: thin solid black; }
+  header nav {
+    margin-bottom: 60px; }
+  header ul li {
+    display: inline-block;
+    width: 22%;
+    text-align: center; }
+    header ul li a {
+      font-family: "Stint Ultra Expanded", serif; }
+      header ul li a:hover {
+        border-bottom: thin solid #F25802; }
+  header .shopping-cart-container {
+    position: fixed;
+    top: 20px;
+    right: 20px; }
+    header .shopping-cart-container .shopping-cart-button {
+      color: white;
+      background-color: black;
+      padding: 10px;
+      padding-top: 0px;
+      border-radius: 10px;
+      height: 40px;
+      vertical-align: middle; }
+      header .shopping-cart-container .shopping-cart-button i, header .shopping-cart-container .shopping-cart-button p {
+        display: inline-block; }
+
+.products article {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  display: inline-block;
+  width: 50%; }
+  .products article a.image-link {
+    transition: all .5s ease-in-out; }
+    .products article a.image-link:hover {
+      transform: rotate(360deg); }
+  .products article img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 6px;
+    padding: 4px;
+    border: thin solid #F25802;
+    border-radius: 100%; }
+  .products article h3, .products article h5 {
+    margin-bottom: 4px; }
+  .products article p {
+    color: #F25802;
+    margin-top: 4px; }
+    .products article p span {
+      color: black; }
+  .products article blockquote {
+    text-align: left; }
+  .products article div.add-to-cart {
+    cursor: pointer;
+    margin: 0 auto;
+    color: white;
+    background-color: #F25802;
+    border-radius: 10px;
+    font-family: "Stint Ultra Expanded", serif;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 35%; }
+    .products article div.add-to-cart:hover {
+      background-color: #fd8643; }
+
+@media screen and (max-width: 620px) {
+  .products article {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 40px; } }
+
+/*# sourceMappingURL=compiled.css.map */
