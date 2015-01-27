@@ -14,9 +14,9 @@
     <a class="brand" href=""><img class="logo" src="http://media.tumblr.com/tumblr_li0kmu325r1qc200x.jpg" /></a>
     <h1>Socks 'R' Youz!</h1>
     <h6 class="tagline">no bullshit. just socks to rock your...socks!</h6>
-    <div class="shopping-cart-container">
-      <div class="shopping-cart-button">
-        <i class="fa fa-shopping-cart"></i> &nbsp; |  &nbsp; <p class="cart-amount">0</p>
+    <div class="top-right-button">
+      <div class="open-create-product">
+        <i class="fa fa-2x fa-pencil"></i>
       </div>
     </div>
     <nav>
@@ -31,6 +31,64 @@
   <section class="products">
 
   </section>
+</div>
+<div class="overlay">
+  <div class="top-left-button">
+    <i class="fa fa-3x fa-close"></i>
+  </div>
+  <form class="create-product-form">
+    <h4>Create Product</h4>
+    <p>
+      <label for="title">Product Title</label>
+      <input type="text" name="title" placeholder="product title">
+    </p>
+    <p>
+      <label for="category">Product Category</label>
+      <input type="text" name="category" placeholder="product category">
+    </p>
+    <p>
+      <label for="imageURL">Image Url</label>
+      <input type="text" name="imageURL" placeholder="copy and paste img url here">
+    </p>
+    <p>
+      <label for="price">Price</label>
+      <input type="text" name="price" placeholder="product price">
+    </p>
+    <p>
+      <label for="description">Product Description</label>
+      <textarea cols="30" rows="10" name="description"></textarea>
+    </p>
+    <p>
+      <button type="submit">Create Product</button>
+    </p>
+  </form>
+  <form class="edit-product-form">
+    <h4>Edit Product</h4>
+    <p>
+      <label for="title">Product Title</label>
+      <input type="text" name="title" placeholder="product title">
+    </p>
+    <p>
+      <label for="category">Product Category</label>
+      <input type="text" name="category" placeholder="product category">
+    </p>
+    <p>
+      <label for="imageURL">Image Url</label>
+      <input type="text" name="imageURL" placeholder="copy and paste img url here">
+    </p>
+    <p>
+      <label for="price">Price</label>
+      <input type="text" name="price" placeholder="product price">
+    </p>
+    <p>
+      <label for="description">Product Description</label>
+      <textarea id="description" cols="30" rows="10" name="description"></textarea>
+    </p>
+    <p>
+      <button type="submit">Update Product</button>
+    </p>
+  </form>
+</div>
 
 <footer>
 
