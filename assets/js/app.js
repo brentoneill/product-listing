@@ -42,8 +42,8 @@ var productPage = {
 
 
     //Show overlay for create and edit screen
-    $('section article').on('click', '.open-edit-product', productPage.showEditOverlay);
-    $('section article').on('click', '.open-edit-product', productPage.bindProduct);
+    $('section').on('click', '.open-edit-product', productPage.showEditOverlay);
+    $('section').on('click', '.open-edit-product', productPage.bindProduct);
     $('.container').on('click', '.open-create-product', productPage.showCreateOverlay);
     //Close overlay on 'X' click
     $('.overlay').on('click', 'i.fa-close', function() {
