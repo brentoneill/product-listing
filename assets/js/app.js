@@ -101,7 +101,7 @@ var productPage = {
 
   /////////////////////////////////////
   //// R  /////////////////////////////
-  renderProduct: function(product, index, arry) {
+  renderProduct: function(product, index, array) {
     product.idx = index;
 
     var compiled = _.template(templates.product);
